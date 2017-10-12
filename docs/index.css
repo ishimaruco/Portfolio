@@ -17,20 +17,30 @@ body {
 
 .wapper {
 	margin: 0px auto 0px auto;
-	padding-top: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	/*border: solid red;*/
 }
 
 .box {
 	position: relative;
 	width: 400px;
-	height: 150px;
+	height: 200px;
 	/*border: solid yellow;*/
 }
 
 .portfolio{
 	/*border: solid #008080;*/
 	display: flex;
+}
+
+.drop {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform : translate(-50%,-50%);
+	transform : translate(-50%,-50%);
 }
 
 a {
@@ -49,5 +59,5 @@ a {
 	border-radius: 200px;
 	background: #666;
 	color: #fff;
-	/*-webkit-animation: vertical 1s ease-in-out infinite alternate;*/
+	-webkit-animation: vertical 1s ease-in-out infinite alternate;
 }
