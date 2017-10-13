@@ -1,3 +1,33 @@
-h1 {
+html {
+	height: 100%;
+}
 
+body {
+	background-image: url("../photos/haikei.jpeg");
+	height: 100%;
+}
+
+.wapper {
+	/*position: relative;*/
+	/*min-height: 100vh;*/
+	height: 100%;
+}
+
+#contact {
+	height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-width: 600px;  /*中央配置するボックスの横幅*/
+  min-height: 400px;  /*中央配置するボックス縦幅*/
+  /*background-color: #2262aa;*/
+}
+
+.pt01 {
+  margin: -200px 0 0 -300px;  /*縦横の半分をネガティブマージンでずらす*/
+  position: absolute;  /*body要素に対して絶対配置*/
+  top: 50%;  /*上端を中央に*/
+  left: 50%;  /*左端を中央に*/
+  width: 600px;  /*横幅*/
+  height: 400px;  /*縦幅*/
 }
