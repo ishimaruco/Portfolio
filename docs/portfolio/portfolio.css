@@ -1,0 +1,18 @@
+.wapper {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+	/*border: 1px solid #FF0000;*/
+}
+
+.content1 {
+	display: flex;
+}
+
+.content2 {
+	display: flex;
+}
+
+.about_product2 {
+	text-align: right;
+}
