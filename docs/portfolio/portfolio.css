@@ -7,6 +7,12 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+/*h2 {
+	margin: 0 0 70px 0;
+	font-size: 46px;
+	text-align: left;
+}*/
+
 .wapper {
 	width: 800px;
 	margin: 0 auto;
@@ -25,3 +31,4 @@ body {
 .about_product2 {
 	text-align: right;
 }
+
