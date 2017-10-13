@@ -27,8 +27,7 @@ body {
 .portfolio{
 	/*border: solid #008080;*/
 	display: flex;
-	margin: auto;
-	width: 100%;
+	justify-content: space-around;
 }
 
 .box {
