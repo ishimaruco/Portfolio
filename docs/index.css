@@ -8,11 +8,13 @@ body {
 	padding: 0px 0px 0px 0px;
 	font-size: 30px;
 	letter-spacing: 3px;
+	color: #808080;
 	/*border: solid #000000;*/
 }
 
 .logo p {
 	font-size: 15px;
+	color: #808080;
 }
 
 .wapper {
