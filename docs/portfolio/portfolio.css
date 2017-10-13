@@ -1,17 +1,17 @@
 body {
 	font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
 	font-size: 14px;
-	color: #333;
 	line-height: 1.9;
 	text-align: left;
 	-webkit-text-size-adjust: 100%;
 }
 
-/*h2 {
-	margin: 0 0 70px 0;
-	font-size: 46px;
+h1 h2 {
+	/*margin: 0 0 70px 0;*/
+	/*font-size: 46px;*/
 	text-align: left;
-}*/
+	color: #333;
+}
 
 .wapper {
 	width: 800px;
