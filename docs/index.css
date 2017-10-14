@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/earlyaccess/sawarabigothic.css');
+
 
 body {
+	font-family: 'Amatic SC', cursive;
 	background-image: url("photos/background.jpg")
 }
 
@@ -14,6 +18,7 @@ body {
 
 .logo p {
 	font-size: 15px;
+	font-family: 'Sawarabi Gothic';
 	color: #808080;
 }
 
