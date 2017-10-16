@@ -31,17 +31,17 @@
 
 /* タブレット向け：760px～960px */
 @media only screen and (min-width: 760px) {
-	
+
 .fBox01 {
 	width: 100%;
 }
 .fBox01 .fBoxLeft {
-	float: left; 
+	float: left;
 	width: 20%;
 	text-align: left;
 }
 .fBox01 .fBoxRight {
-	float: right; 
+	float: right;
 	width: 70%;
 }
 .companyProf {
@@ -73,13 +73,25 @@
 	width: 960px;
 }
 .fBox01 .fBoxLeft {
-	float: left; 
+	float: left;
 	width: 160px;
 	text-align: left;
 }
 .fBox01 .fBoxRight {
-	float: right; 
+	float: right;
 	width: 760px;
 }
 
 } /* PC向け */
+
+.facebook {
+	color:#3B5998;
+}
+
+.twitter {
+	color:#2493EB;
+}
+
+.qiita {
+	color:#67BD32;
+}

@@ -55,8 +55,19 @@ h3 {
 	display: flex;
 }
 
+.history {
+	margin-top: 16px;
+}
+
 .about_product2 {
 	text-align: left;
 	margin-left: 30px;
 }
 
+.about_product2 h3 , .about_product2 ul{
+	margin: 0;
+}
+
+.about_product2 h3:first-child {
+	margin-top: 16px;
+}
