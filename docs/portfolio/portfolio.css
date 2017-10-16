@@ -26,6 +26,13 @@ h2 {
 	color: #333;
 }
 
+h3 {
+	font-family: 'Noto Sans Japanese';
+	font-weight: 100;
+	text-align: left;
+	color: #333;
+}
+
 .wapper {
 	width: 800px;
 	margin: 0 auto;
@@ -35,12 +42,14 @@ h2 {
 
 .contents {
 	background-color: rgba(255,255,255,0.8);
+	margin:0 auto;
+	width: 50%;
 	/*border: 1px solid red;*/
 }
 
 .content1 {
 	font-family: 'Sawarabi Gothic';
-	display: flex;
+	/*display: flex;*/
 }
 
 .content2 {
@@ -48,7 +57,19 @@ h2 {
 	display: flex;
 }
 
-.about_product2 {
-	text-align: right;
+.history {
+	margin-top: 16px;
 }
 
+.about_product2 {
+	text-align: left;
+	margin-left: 30px;
+}
+
+.about_product2 h3 , .about_product2 ul{
+	margin: 0;
+}
+
+.about_product2 h3:first-child {
+	margin-top: 16px;
+}
