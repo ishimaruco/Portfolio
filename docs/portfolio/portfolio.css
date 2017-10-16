@@ -1,7 +1,12 @@
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
+
+
 body {
-	font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+	font-family: 'Sawarabi Gothic';
+	/*font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;*/
 	font-size: 14px;
-	line-height: 1.9;
+	color: #333;
+	line-height:1.9;
 	text-align: left;
 	-webkit-text-size-adjust: 100%;
 }
@@ -18,6 +23,11 @@ h1 h2 {
 	margin: 0 auto;
 	text-align: left;
 	/*border: 1px solid #FF0000;*/
+}
+
+.contents {
+	background-color: rgba(255,255,255,0.8);
+	/*border: 1px solid red;*/
 }
 
 .content1 {
