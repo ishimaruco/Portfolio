@@ -26,6 +26,13 @@ h2 {
 	color: #333;
 }
 
+h3 {
+	font-family: 'Noto Sans Japanese';
+	font-weight: 100;
+	text-align: left;
+	color: #333;
+}
+
 .wapper {
 	width: 800px;
 	margin: 0 auto;
@@ -40,7 +47,7 @@ h2 {
 
 .content1 {
 	font-family: 'Sawarabi Gothic';
-	display: flex;
+	/*display: flex;*/
 }
 
 .content2 {
@@ -49,6 +56,7 @@ h2 {
 }
 
 .about_product2 {
-	text-align: right;
+	text-align: left;
+	margin-left: 30px;
 }
 
