@@ -42,6 +42,8 @@ h3 {
 
 .contents {
 	background-color: rgba(255,255,255,0.8);
+	margin:0 auto;
+	width: 50%;
 	/*border: 1px solid red;*/
 }
 
