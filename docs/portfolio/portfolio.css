@@ -1,9 +1,8 @@
 @import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 
 body {
-	font-family: 'Sawarabi Gothic';
-	/*font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;*/
 	font-size: 14px;
 	color: #333;
 	line-height:1.9;
@@ -11,9 +10,18 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-h1 h2 {
+h1 {
 	/*margin: 0 0 70px 0;*/
 	/*font-size: 46px;*/
+	font-family: 'Noto Sans Japanese';
+	font-weight: 100;
+	text-align: left;
+	color: #333;
+}
+
+h2 {
+	font-family: 'Noto Sans Japanese';
+	font-weight: 100;
 	text-align: left;
 	color: #333;
 }
@@ -31,10 +39,12 @@ h1 h2 {
 }
 
 .content1 {
+	font-family: 'Sawarabi Gothic';
 	display: flex;
 }
 
 .content2 {
+	font-family: 'Sawarabi Gothic';
 	display: flex;
 }
 
