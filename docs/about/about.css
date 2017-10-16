@@ -1,56 +1,85 @@
-@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400');
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
 
-/* reset.css
------------------------------------------ */
-html,body,h1,h2,h3,h4,h5,h6,p,div,
-ul,ol,li,dl,dt,dd,
-table,caption,th,td,
-form,button,label,address,blockquote,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border:0;
-	outline:0;
-	font-size: 100%;
-	font-weight: normal;
-}
 body {
-	line-height:1;
+	line-height: 1.9;
+	/*font-family: 'Sawarabi Gothic';*/
 }
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-	display:block;
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 46px;
+	color: #333;
 }
-nav ul {
-	list-style:none;
+
+p {
+	/*font-family: 'Sawarabi Gothic';*/
+	font-weight: 100;
 }
-hr {
-	display: none;
+
+.contents {
+	margin:0 auto;
 }
-img,abbr {
-	border: none;
-	vertical-align: bottom;
+
+.txtbox {
+	margin: 0 auto;
+	height: 50%;
 }
-ul,ol,li {
-	list-style: none;
+
+.aboutme {
+	float: left;
+	width: 760px;
+	margin-left: 10%;
+	font-size: 13px;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.pt01 dt {
+	float: left;
+	display: block;
+	width: 20%;
+	font-weight: bold;
 }
-th,td {
-	text-align: left;
+
+dl {
+margin: 0;
 }
-/* clearfix */
-.cf {
-	zoom: 1;
+
+a {
+	color: #333;
+	text-decoration: none;
 }
-.cf:before, .cf:after {
-	content: "";
-	display: table;
+
+.pt01 , .pt02 {
+	display: block;
+	/*width: 20%;*/
+	font-weight: bold;
 }
-.cf:after {
-	clear: both;
+
+dd {
+	width: 80%;
+}
+
+.image img{
+	height: 160px;
+	width: 160px;
+}
+
+.content {
+	display: flex;
+	font-family: 'Sawarabi Gothic';
+	font-weight: 100;
+	color: #333;
+}
+
+.facebook {
+	color:#3B5998;
+}
+
+.twitter {
+	color:#2493EB;
+}
+
+.qiita {
+	color:#67BD32;
 }
