@@ -11,9 +11,6 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: white;
-	f/*ilter: 				alpha(opacity=50);
-    -moz-opacity:			0.5;
-    opacity:		*/		0.5;
 	height: 100%;
 }
 
@@ -38,7 +35,6 @@ h2 p {
 }
 
 #contact {
-	/*font-family: 'Sawarabi Gothic';*/
 	height: 100%;
 	margin: 0;
 	padding: 0;
