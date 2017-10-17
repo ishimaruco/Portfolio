@@ -14,7 +14,7 @@ h1 {
 }
 
 p {
-	/*font-family: 'Sawarabi Gothic';*/
+	font-family: 'Sawarabi Gothic';
 	font-weight: 100;
 }
 
@@ -42,7 +42,7 @@ p {
 }
 
 dl {
-margin: 0;
+	margin: 0;
 }
 
 a {
@@ -57,6 +57,8 @@ a {
 }
 
 dd {
+	font-family: 'Sawarabi Gothic';
+	font-weight: 100;
 	width: 80%;
 }
 
@@ -67,8 +69,6 @@ dd {
 
 .content {
 	display: flex;
-	font-family: 'Sawarabi Gothic';
-	font-weight: 100;
 	color: #333;
 }
 
