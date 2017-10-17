@@ -11,24 +11,9 @@ body {
 }
 
 h1 {
-	/*margin: 0 0 70px 0;*/
-	/*font-size: 46px;*/
 	font-family: 'Noto Sans Japanese';
 	font-weight: 100;
-	text-align: left;
-	color: #333;
-}
-
-h2 {
-	font-family: 'Noto Sans Japanese';
-	font-weight: 100;
-	text-align: left;
-	color: #333;
-}
-
-h3 {
-	font-family: 'Noto Sans Japanese';
-	font-weight: 100;
+	font-size: 40px;
 	text-align: left;
 	color: #333;
 }
@@ -37,23 +22,27 @@ h3 {
 	width: 800px;
 	margin: 0 auto;
 	text-align: left;
-	/*border: 1px solid #FF0000;*/
 }
 
 .contents {
 	background-color: rgba(255,255,255,0.8);
 	margin:0 auto;
 	width: 50%;
-	/*border: 1px solid red;*/
+}
+
+h2, h3, .content1{
+	font-family: 'Sawarabi Gothic';
+	font-weight: 100;
+	/*display: flex;*/
 }
 
 .content1 {
-	font-family: 'Sawarabi Gothic';
-	/*display: flex;*/
+	font-size: 18px;
 }
 
 .content2 {
 	font-family: 'Sawarabi Gothic';
+	font-weight: 100;
 	display: flex;
 }
 
