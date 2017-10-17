@@ -20,10 +20,14 @@ p {
 
 .contents {
 	margin:0 auto;
+	border: medium solid #ff00ff;
+	width: 80%;
+	/*height: 50%;*/
 }
 
 .txtbox {
 	margin: 0 auto;
+	margin-bottom: 30px;
 	height: 50%;
 }
 
